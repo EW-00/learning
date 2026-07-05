@@ -1,5 +1,42 @@
-# 教材本体不入库：版权（repo 是 public 的）+ git 不适合大二进制
+# ── 教材本体不入库：版权（repo 是 public 的）+ git 不适合大二进制 ──
 # 清单记在各 track 的 SOURCES.md，换机器按清单恢复
 tracks/*/materials/
 
+# ── 操作系统垃圾（Mac + firm laptop 的 Windows）──
 .DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# ── Python（练习/项目代码会用到）──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ── Node ──
+node_modules/
+
+# ── 编辑器 ──
+.idea/
+.vscode/
+*.swp
+
+# ── 凭证与环境变量（红线兜底：本就不该出现在这里）──
+.env
+.env.*
+*.pem
+*.key
+
+# ── 日志与临时文件 ──
+*.log
+*.tmp
+tmp/
