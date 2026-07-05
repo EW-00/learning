@@ -8,6 +8,8 @@
 TUTOR.md                  # 家教宪法（十条护栏 + 五循环）
 .claude/skills/tutor/     # 家教 skill 本体（clone 即装）
 tracks/<科目>/            # 每科一目录：章程/路线图/状态/卡片/错题/考卷/项目
+tracks/<科目>/materials/  # 教材本体（gitignore，不入公开库；清单在 SOURCES.md）
+tracks/<科目>/notes/      # 家教的教学摘要（原创，入库，跨机器可用）
 inbox/REVIEW_QUEUE.md     # 每日生成的迷你复习包（有到期卡时）
 dashboard/index.html      # 进度可视化（会话后自动重绘）
 reports/                  # 每周学习报告
@@ -30,6 +32,7 @@ ln -s ~/learning/.claude/skills/tutor ~/.claude/skills/tutor
 本 repo 是 **public** 的：
 - ✅ 学习笔记、错题、进度、复习卡片
 - ❌ 客户信息、公司内部信息、个人隐私、任何凭证
+- ❌ 有版权的教材本体（放本地 `materials/`，已 gitignore）
 
 ## 定时任务（仅个人 Mac）
 

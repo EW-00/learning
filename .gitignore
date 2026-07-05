@@ -1,0 +1,5 @@
+# 教材本体不入库：版权（repo 是 public 的）+ git 不适合大二进制
+# 清单记在各 track 的 SOURCES.md，换机器按清单恢复
+tracks/*/materials/
+
+.DS_Store
