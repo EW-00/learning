@@ -1,0 +1,16 @@
+{
+  "track": "<slug>",
+  "title": "<科目名>",
+  "mode": "系统深学",
+  "status": "active",
+  "started": "YYYY-MM-DD",
+  "last_session": "YYYY-MM-DD",
+  "total_sessions": 0,
+  "total_minutes": 0,
+  "modules": [
+    {"name": "<模块名>", "status": "not_started"}
+  ],
+  "calibration": [
+    {"date": "YYYY-MM-DD", "predicted": 0, "actual": 0}
+  ]
+}
