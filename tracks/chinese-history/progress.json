@@ -1,0 +1,25 @@
+{
+  "track": "chinese-history",
+  "title": "中国通史",
+  "mode": "兴趣长线",
+  "status": "active",
+  "started": "2026-07-19",
+  "last_session": "2026-07-19",
+  "total_sessions": 1,
+  "total_minutes": 30,
+  "modules": [
+    {"name": "文明起源与三代", "status": "in_progress"},
+    {"name": "轴心时代·诸子百家", "status": "not_started"},
+    {"name": "秦汉·帝国模板初建", "status": "not_started"},
+    {"name": "分裂与胡汉交融", "status": "not_started"},
+    {"name": "隋唐·世界性帝国", "status": "not_started"},
+    {"name": "盛极而衰·藩镇到五代", "status": "not_started"},
+    {"name": "两宋·经济文化黄金期", "status": "not_started"},
+    {"name": "征服王朝·辽金元", "status": "not_started"},
+    {"name": "明·专制与文人政治", "status": "not_started"},
+    {"name": "面向海洋·晚明与盛清", "status": "not_started"},
+    {"name": "帝国黄昏·衰败的内因", "status": "not_started"},
+    {"name": "近代转型", "status": "not_started"}
+  ],
+  "calibration": []
+}
