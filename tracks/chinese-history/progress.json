@@ -6,11 +6,11 @@
   "started": "2026-07-19",
   "last_session": "2026-07-19",
   "total_sessions": 1,
-  "total_minutes": 30,
+  "total_minutes": 75,
   "modules": [
-    {"name": "文明起源与三代", "status": "in_progress"},
-    {"name": "轴心时代·诸子百家", "status": "not_started"},
-    {"name": "秦汉·帝国模板初建", "status": "not_started"},
+    {"name": "文明起源与三代", "status": "mastered"},
+    {"name": "轴心时代·诸子百家", "status": "mastered"},
+    {"name": "秦汉·帝国模板初建", "status": "in_progress"},
     {"name": "分裂与胡汉交融", "status": "not_started"},
     {"name": "隋唐·世界性帝国", "status": "not_started"},
     {"name": "盛极而衰·藩镇到五代", "status": "not_started"},
@@ -21,5 +21,7 @@
     {"name": "帝国黄昏·衰败的内因", "status": "not_started"},
     {"name": "近代转型", "status": "not_started"}
   ],
-  "calibration": []
+  "calibration": [
+    {"date": "2026-07-19", "predicted": 60, "actual": 90}
+  ]
 }
